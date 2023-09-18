@@ -1,0 +1,43 @@
+a {
+  border: solid, #121212;
+  width: auto;
+  text-decoration:none;
+  color: #121212;
+}
+
+ul li {
+  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  list-style: none;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 525;
+  padding: 0.625rem 30px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+li a:hover {
+  color: rgb(196, 196, 196);
+  text-shadow: 2px 2px 2px #65b1e4;
+  transition: 0.3s;
+}
+
+.items{
+  border: solid, #fd0000;
+  background-color: #65b1e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  background-color: #252525;
+  color: #e2e2e2;
+  font-size: 5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+
+
